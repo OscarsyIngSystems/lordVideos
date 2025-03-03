@@ -18,8 +18,8 @@ const MisPeliculas = () => {
   const getMisMovies = () => {
     let url =
       dataContext.search != null
-        ? `http://localhost:8782/movies/misPeliculas/1?search=${dataContext.search}`
-        : 'http://localhost:8782/movies/misPeliculas/1';
+        ? `http://localhost:8080/api/buscador/misPeliculas/1?search=${dataContext.search}`
+        : 'http://localhost:8080/api/buscador/misPeliculas/1';
     axios.get(url).then(res => {
       const data = res.data;
       console.log(data, 'SOY DATA ');

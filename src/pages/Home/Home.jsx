@@ -16,8 +16,8 @@ const Home = () => {
   const getMovies = () => {
     let url =
       dataContext.search != null
-        ? `http://localhost:8782/movies/home?search=${dataContext.search}`
-        : 'http://localhost:8782/movies/home';
+        ? `http://localhost:8080/api/buscador/home?search=${dataContext.search}`
+        : 'http://localhost:8080/api/buscador/home';
 
     axios.get(url).then(res => {
       const data = res.data;

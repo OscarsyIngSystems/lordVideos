@@ -15,8 +15,8 @@ const Renta = () => {
   const getMovies = () => {
     let url =
       dataContext.search != null
-        ? `http://localhost:8782/movies/rentar?search=${dataContext.search}`
-        : 'http://localhost:8782/movies/rentar';
+        ? `http://localhost:8080/api/buscador/rentar?search=${dataContext.search}`
+        : 'http://localhost:8080/api/buscador/rentar';
     axios.get(url).then(res => {
       const data = res.data;
       console.log(data, 'SOY DATA ');

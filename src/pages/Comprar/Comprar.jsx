@@ -15,8 +15,8 @@ const Comprar = () => {
   const getMovies = () => {
     let url =
       dataContext.search != null
-        ? `http://localhost:8782/movies/comprar?search=${dataContext.search}`
-        : 'http://localhost:8782/movies/comprar';
+        ? `http://localhost:8080/api/buscador/comprar?search=${dataContext.search}`
+        : 'http://localhost:8080/api/buscador/comprar';
     axios.get(url).then(res => {
       const data = res.data;
       console.log(data, 'SOY DATA ');
