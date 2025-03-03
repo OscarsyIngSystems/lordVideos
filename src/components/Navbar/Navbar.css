@@ -1,0 +1,117 @@
+.miNav {
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 1;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.img {
+    width: 5%;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.searchIcon {
+    font-size: 1.5em;
+}
+
+.background-nav {
+
+    background: #e18746;
+}
+
+.backgroundTransparent {
+    position: fixed !important;
+    background: rgba(219, 133, 72, 0.7);
+    transition: 1s;
+    z-index: 100;
+    width: 100%;
+}
+
+.btn-border {
+    border: dashed 1px #ee7724 !important;
+}
+
+.form_input-width {
+    width: 15%;
+}
+
+.form_input-width:focus {
+    width: 35%;
+}
+
+.active {
+    background-color: #433C38 !important;
+    color: white !important;
+    border: none !important;
+
+
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: white !important;
+
+}
+
+.nav-item:hover {
+    background-color: #433C38;
+    color: white !important;
+
+}
+
+.car {
+    color: white;
+}
+
+.btn-car-shop {
+    border: solid 1px white;
+}
+
+
+.cart-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -12px;
+
+    right: 22px;
+
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: jump 0.5s infinite;
+
+}
+
+.tooltip-exit {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-5px);
+
+    }
+}

@@ -1,0 +1,116 @@
+.container-principal {
+  margin-bottom: 2em;
+  background: rgb(215 215 214 / 70%);
+
+}
+
+.container-principal:hover {
+  margin-bottom: 2em;
+  background: rgba(214, 214, 181, 0.7);
+
+
+
+}
+
+.container_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange !important;
+  border-radius: 15%;
+
+}
+
+.title :hover {
+  font-size: 1.5em;
+  color: white
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  padding-top: 4em;
+
+
+}
+
+
+.img-car {
+  width: 12em;
+  height: 6em;
+  border-radius: 5%;
+}
+
+.title {
+  font-size: 1.5em;
+  color: orange;
+}
+
+.costo {
+  color: orange;
+  font-size: 2em;
+}
+
+.credit {
+  width: 25%;
+  cursor: pointer;
+}
+
+.paypal {
+  width: 25%;
+  cursor: pointer;
+}
+
+.credit:hover {
+  animation: shakeY;
+
+  animation-duration: 2s;
+}
+
+.paypal:hover {
+  animation: shakeY;
+
+  animation-duration: 2s;
+}
+
+.container_img {
+  width: 15em !important;
+}
+
+.container-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.delete {
+  color: white;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+
+}
+
+.nav-item:hover {
+  background-color: #433C38;
+
+}
+
+.textPay {
+  color: orange;
+}
+
+
+.empty-cart {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.empty-cart img {
+  width: 150px;
+  margin-bottom: 20px;
+}

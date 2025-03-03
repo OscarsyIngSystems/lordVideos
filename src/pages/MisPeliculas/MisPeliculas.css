@@ -1,0 +1,32 @@
+.empty-cine {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.empty-cine img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    padding-top: 4em;
+
+
+}
+
+.container_img {
+    width: 15em !important;
+}
+
+.container-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,59 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "En busca de la felicidad",
+      "description": "La vida es una lucha para Chris Gardner. Expulsado de su apartamento, él y su joven hijo se encuentran solos sin ningún lugar a donde ir. A pesar de que Chris eventualmente consigue trabajo como interno en una prestigiada firma financiera, la posición no le da dinero. El dúo debe vivir en un albergue y enfrentar muchas dificultades, pero Chris no se da por vencido y lucha por conseguir una vida mejor para él y su hijo.",
+      "action": "Rentar",
+      "iframe": "https://www.youtube.com/embed/V5K1XXJEBls?si=RKchykfv4qpw5G_c",
+      "director": "Gabriele Muccino",
+      "año": "2006",
+      "duración": "Aproximadamente 117 minutos",
+      "categoría": "Película inspiradora basada en hechos reales",
+      "costo": 150,
+      "portada": "https://www.exitopersonal.com/imagenes/pelicula-del-mes-en-busca-de-la-felicidad_x2.jpg"
+    },
+
+    {
+      "id": 4,
+      "title": "En busca de la felicidad",
+      "description": "La vida es una lucha para Chris Gardner. Expulsado de su apartamento, él y su joven hijo se encuentran solos sin ningún lugar a donde ir. A pesar de que Chris eventualmente consigue trabajo como interno en una prestigiada firma financiera, la posición no le da dinero. El dúo debe vivir en un albergue y enfrentar muchas dificultades, pero Chris no se da por vencido y lucha por conseguir una vida mejor para él y su hijo.",
+      "action": "Rentar",
+      "iframe": "https://www.youtube.com/embed/V5K1XXJEBls?si=RKchykfv4qpw5G_c",
+      "director": "Gabriele Muccino",
+      "año": "2006",
+      "duración": "Aproximadamente 117 minutos",
+      "categoría": "Película inspiradora basada en hechos reales",
+      "costo": 150,
+      "portada": "https://www.exitopersonal.com/imagenes/pelicula-del-mes-en-busca-de-la-felicidad_x2.jpg"
+    },
+
+    {
+      "id": 7,
+      "title": "En busca de la felicidad",
+      "description": "La vida es una lucha para Chris Gardner. Expulsado de su apartamento, él y su joven hijo se encuentran solos sin ningún lugar a donde ir. A pesar de que Chris eventualmente consigue trabajo como interno en una prestigiada firma financiera, la posición no le da dinero. El dúo debe vivir en un albergue y enfrentar muchas dificultades, pero Chris no se da por vencido y lucha por conseguir una vida mejor para él y su hijo.",
+      "action": "Rentar",
+      "iframe": "https://www.youtube.com/embed/V5K1XXJEBls?si=RKchykfv4qpw5G_c",
+      "director": "Gabriele Muccino",
+      "año": "2006",
+      "duración": "Aproximadamente 117 minutos",
+      "categoría": "Película inspiradora basada en hechos reales",
+      "costo": 150,
+      "portada": "https://www.exitopersonal.com/imagenes/pelicula-del-mes-en-busca-de-la-felicidad_x2.jpg"
+    },
+
+    {
+      "id": 10,
+      "title": "En busca de la felicidad",
+      "description": "La vida es una lucha para Chris Gardner. Expulsado de su apartamento, él y su joven hijo se encuentran solos sin ningún lugar a donde ir. A pesar de que Chris eventualmente consigue trabajo como interno en una prestigiada firma financiera, la posición no le da dinero. El dúo debe vivir en un albergue y enfrentar muchas dificultades, pero Chris no se da por vencido y lucha por conseguir una vida mejor para él y su hijo.",
+      "action": "Rentar",
+      "iframe": "https://www.youtube.com/embed/V5K1XXJEBls?si=RKchykfv4qpw5G_c",
+      "director": "Gabriele Muccino",
+      "año": "2006",
+      "duración": "Aproximadamente 117 minutos",
+      "categoría": "Película inspiradora basada en hechos reales",
+      "costo": 150,
+      "portada": "https://www.exitopersonal.com/imagenes/pelicula-del-mes-en-busca-de-la-felicidad_x2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+.container_card {
+    max-width: 100%;
+
+    /* margin: 0 auto; */
+
+    padding: 15px;
+
+
+
+}
+
+.card {
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+}
+
+
+
+.card-text {
+
+    display: -webkit-box;
+    /* Usado para el truncamiento de múltiples líneas */
+    -webkit-box-orient: vertical;
+    /* Orientación vertical */
+    -webkit-line-clamp: 3;
+    /* Número de líneas a mostrar */
+    overflow: hidden;
+    /* Oculta el contenido que excede el contenedor */
+    text-overflow: ellipsis;
+    /* Muestra puntos suspensivos */
+}
+
+
+
+.container_iframe {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+    height: 0;
+    overflow: hidden;
+}
+
+.container_iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+
+}
+
+
+
+.link {
+    display: inline-block;
+    font-weight: 400;
+    color: #dc3545;
+    /* Color del texto (rojo) */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    /* Espaciado interno */
+    border: 1px solid transparent;
+    /* Borde transparente por defecto */
+    border-radius: 0.25rem;
+    /* Bordes redondeados */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.link-danger {
+    color: #dc3545;
+    /* Color del texto (rojo) */
+    background-color: transparent;
+    /* Fondo transparente */
+    border-color: #dc3545;
+    /* Borde rojo */
+}
+
+.link-danger:hover {
+    color: #fff !important;
+    /* Color del texto al pasar el mouse */
+    background-color: #dc3545;
+    /* Fondo rojo al pasar el mouse */
+    border-color: #dc3545;
+    /* Borde rojo al pasar el mouse */
+}
+
+.link-danger:focus,
+.link-danger:active {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    border-color: #dc3545 !important;
+
+
+    ;
+    /* Sombra al enfocar o hacer clic */
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+
+    }
+
+    .card-body {
+        padding: 10px;
+
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+
+    }
+}

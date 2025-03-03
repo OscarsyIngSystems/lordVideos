@@ -1,0 +1,111 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "title": "Gladiador 2",
+      "description": "Gladiator 2 es una planeada cinta de aventura y acción, secuela de la gran ganadora del premio de la Academia y que volverá a ser dirigida por Ridley Scott(El último duelo), cuya guion no ha sido aprobado y poco se sabe de la trama o los personajes que están involucrados, sin embargo, se ha especulado que la historia seguirá la aventura de Lucio, hijo de Lucila y sobrina del terrible emperador Cómodo, por tal, es el siguiente en la sucesión del trono, por lo que se enfoca en los años de Lucio como el nuevo emperador y los cambios que debe traer, esté o no de acuerdo con ellos.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/ZEJgVq1K8S4?si=gexZZXToPCMHmwuU",
+      "director": "Ridley Scott",
+      "año": "2024",
+      "duración": "Aún no confirmada",
+      "categoría": "Secuela de la película Gladiador (2000)",
+      "costo": 150,
+      "portada": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/23/detalle-del-poster-final-de-gladiator-2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Avatar",
+      "description": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Na'vi.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/CpXJHWSXJW0?si=Nj1_kKr5fYuJgE63",
+      "director": "James Cameron",
+      "año": "2009",
+      "duración": "Aproximadamente 162 minutos",
+      "categoría": "Película de acción y aventura",
+      "costo": 150,
+      "portada": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/avatar-2756743.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "Gladiador 2",
+      "description": "Gladiator 2 es una planeada cinta de aventura y acción, secuela de la gran ganadora del premio de la Academia y que volverá a ser dirigida por Ridley Scott(El último duelo), cuya guion no ha sido aprobado y poco se sabe de la trama o los personajes que están involucrados, sin embargo, se ha especulado que la historia seguirá la aventura de Lucio, hijo de Lucila y sobrina del terrible emperador Cómodo, por tal, es el siguiente en la sucesión del trono, por lo que se enfoca en los años de Lucio como el nuevo emperador y los cambios que debe traer, esté o no de acuerdo con ellos.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/ZEJgVq1K8S4?si=gexZZXToPCMHmwuU",
+      "director": "Ridley Scott",
+      "año": "2024",
+      "duración": "Aún no confirmada",
+      "categoría": "Secuela de la película Gladiador (2000)",
+      "costo": 150,
+      "portada": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/23/detalle-del-poster-final-de-gladiator-2.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Avatar",
+      "description": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Na'vi.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/CpXJHWSXJW0?si=Nj1_kKr5fYuJgE63",
+      "director": "James Cameron",
+      "año": "2009",
+      "duración": "Aproximadamente 162 minutos",
+      "categoría": "Película de acción y aventura",
+      "costo": 150,
+      "portada": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/avatar-2756743.jpg"
+    },
+
+    {
+      "id": 8,
+      "title": "Gladiador 2",
+      "description": "Gladiator 2 es una planeada cinta de aventura y acción, secuela de la gran ganadora del premio de la Academia y que volverá a ser dirigida por Ridley Scott(El último duelo), cuya guion no ha sido aprobado y poco se sabe de la trama o los personajes que están involucrados, sin embargo, se ha especulado que la historia seguirá la aventura de Lucio, hijo de Lucila y sobrina del terrible emperador Cómodo, por tal, es el siguiente en la sucesión del trono, por lo que se enfoca en los años de Lucio como el nuevo emperador y los cambios que debe traer, esté o no de acuerdo con ellos.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/ZEJgVq1K8S4?si=gexZZXToPCMHmwuU",
+      "director": "Ridley Scott",
+      "año": "2024",
+      "duración": "Aún no confirmada",
+      "categoría": "Secuela de la película Gladiador (2000)",
+      "costo": 150,
+      "portada": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/23/detalle-del-poster-final-de-gladiator-2.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Avatar",
+      "description": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Na'vi.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/CpXJHWSXJW0?si=Nj1_kKr5fYuJgE63",
+      "director": "James Cameron",
+      "año": "2009",
+      "duración": "Aproximadamente 162 minutos",
+      "categoría": "Película de acción y aventura",
+      "costo": 150,
+      "portada": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/avatar-2756743.jpg"
+    },
+
+    {
+      "id": 11,
+      "title": "Gladiador 2",
+      "description": "Gladiator 2 es una planeada cinta de aventura y acción, secuela de la gran ganadora del premio de la Academia y que volverá a ser dirigida por Ridley Scott(El último duelo), cuya guion no ha sido aprobado y poco se sabe de la trama o los personajes que están involucrados, sin embargo, se ha especulado que la historia seguirá la aventura de Lucio, hijo de Lucila y sobrina del terrible emperador Cómodo, por tal, es el siguiente en la sucesión del trono, por lo que se enfoca en los años de Lucio como el nuevo emperador y los cambios que debe traer, esté o no de acuerdo con ellos.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/ZEJgVq1K8S4?si=gexZZXToPCMHmwuU",
+      "director": "Ridley Scott",
+      "año": "2024",
+      "duración": "Aún no confirmada",
+      "categoría": "Secuela de la película Gladiador (2000)",
+      "costo": 150,
+      "portada": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/23/detalle-del-poster-final-de-gladiator-2.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "Avatar",
+      "description": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Na'vi.",
+      "action": "Comprar",
+      "iframe": "https://www.youtube.com/embed/CpXJHWSXJW0?si=Nj1_kKr5fYuJgE63",
+      "director": "James Cameron",
+      "año": "2009",
+      "duración": "Aproximadamente 162 minutos",
+      "categoría": "Película de acción y aventura",
+      "costo": 150,
+      "portada": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/avatar-2756743.jpg"
+    }
+  ]
+}

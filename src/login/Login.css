@@ -1,0 +1,27 @@
+.card-body_img {
+    width: 30%;
+    height: 30vh;
+    object-fit: contain
+}
+
+.form-control {
+    border: dashed 1px #ee7724;
+}
+
+.gradient-custom-2 {
+
+    background: #fccb90;
+
+
+
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+    color: grey;
+    background: #ccc;
+    pointer-events: none;
+    border-color: #ccc;
+
+}
