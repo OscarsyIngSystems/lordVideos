@@ -8,7 +8,8 @@ const Card = ({ title, desc, iframe, action, data, vista }) => {
       <div className="container_card">
         <div className="card  d-flex justify-content-center">
           <div className="container_iframe">
-            <iframe src={iframe} title="YouTube video player"></iframe>
+            <lite-youtube videoid={iframe}></lite-youtube>
+            {/* <iframe src={iframe} title="YouTube video player"></iframe> */}
           </div>
           <div className="card-body">
             <h5 className="card-title">{title} </h5>
