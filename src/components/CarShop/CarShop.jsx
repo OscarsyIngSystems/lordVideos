@@ -69,7 +69,7 @@ const CarShop = () => {
       try {
         // Realizamos la solicitud con axios
         axios
-          .post('http://localhost:8080/api/operador/', newTransactions)
+          .post('http://localhost:8781/transaction', newTransactions)
           .then(res => {
             const data = res.data;
             console.log(data, 'SOY DATA');
