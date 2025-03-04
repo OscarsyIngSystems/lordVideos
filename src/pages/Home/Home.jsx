@@ -14,17 +14,44 @@ const Home = () => {
   }, [dataContext.search]);
 
   const getMovies = () => {
+    let myQuery = {
+      query: {
+        match: {
+          title: dataContext?.search,
+        },
+      },
+    };
     let url =
       dataContext.search != null
-        ? `http://localhost:8080/api/buscador/home?search=${dataContext.search}`
-        : 'http://localhost:8080/api/buscador/home';
+        ? `http://localhost:9200/movies_catalog/_search?pretty=true`
+        : 'http://localhost:9200/movies_catalog/_search?pretty=true';
 
-    axios.get(url).then(res => {
-      const data = res.data;
-      console.log(data, 'SOY DATA ');
+    if (dataContext.search != null) {
+      console.log('ENTRE A POST');
 
-      setMovies(data);
-    });
+      axios.post(url, myQuery).then(res => {
+        const data = res.data;
+        console.log(data, 'SOY DATA de post ');
+
+        setMovies(data);
+      });
+    } else {
+      console.log('ENTRE A GET');
+
+      axios.get(url).then(res => {
+        const data = res.data;
+        console.log(data, 'SOY DATA de get');
+
+        setMovies(data);
+      });
+    }
+
+    // axios.get(url).then(res => {
+    //   const data = res.data;
+    //   console.log(data, 'SOY DATA ');
+
+    //   setMovies(data);
+    // });
   };
 
   return <>{movies?.length > 0 ? <Catalogo data={movies} /> : <Error />}</>;
