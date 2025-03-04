@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import MyModal from '../Modal/MyModal';
 
-const Card = ({ title, desc, iframe, action, data, vista }) => {
+const Card = ({ title, desc, iframe, action, data, vista, ishome }) => {
   return (
     <>
       <div className="container_card">
@@ -16,7 +16,11 @@ const Card = ({ title, desc, iframe, action, data, vista }) => {
             <p className="card-text">{desc}</p>
             <div className="d-flex justify-content-center">
               {vista != 'misPeliculas' ? (
-                <MyModal customClass="link-danger" data={data} />
+                <MyModal
+                  customClass="link-danger"
+                  ishome={ishome}
+                  data={data}
+                />
               ) : (
                 ''
               )}

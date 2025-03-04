@@ -54,7 +54,15 @@ const Home = () => {
     // });
   };
 
-  return <>{movies?.length > 0 ? <Catalogo data={movies} /> : <Error />}</>;
+  return (
+    <>
+      {movies?.length > 0 ? (
+        <Catalogo isHome="true" data={movies} />
+      ) : (
+        <Error />
+      )}
+    </>
+  );
 };
 
 export default Home;
