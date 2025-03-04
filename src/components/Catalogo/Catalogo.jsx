@@ -13,7 +13,7 @@ const Catalogo = ({ data, vista }) => {
                 title={item.title}
                 desc={item.description}
                 iframe={item.iframe}
-                action={item.typeTransaction}
+                action={item.type_transaction}
                 data={item}
                 vista={vista}
               />

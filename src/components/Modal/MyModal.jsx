@@ -22,7 +22,7 @@ const MyModal = ({ customClass, data }) => {
   return (
     <>
       <Button className={customClass} variant="primary" onClick={handleShow}>
-        {data.typeTransaction}
+        {data.type_transaction}
       </Button>
 
       <Modal className="modal-lg " show={show} onHide={handleClose}>
@@ -57,7 +57,7 @@ const MyModal = ({ customClass, data }) => {
           <div className="row mt-4">
             <div className="d-flex justify-content-center">
               {' '}
-              {data.typeTransaction == 'Comprar' ? (
+              {data.type_transaction == 'Comprar' ? (
                 <span className="text-orange">Compra: $&nbsp;</span>
               ) : (
                 <span className="text-orange">Renta (4 días) : $&nbsp;</span>
