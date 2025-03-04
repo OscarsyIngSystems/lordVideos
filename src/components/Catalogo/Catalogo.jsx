@@ -9,7 +9,7 @@ const Catalogo = ({ data, vista }) => {
           {data.map(item => {
             return (
               <Card
-                key={item.idMovie}
+                key={item.id_movie}
                 title={item.title}
                 desc={item.description}
                 iframe={item.iframe}

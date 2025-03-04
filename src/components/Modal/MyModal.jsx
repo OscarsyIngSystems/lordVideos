@@ -28,7 +28,7 @@ const MyModal = ({ customClass, data }) => {
       <Modal className="modal-lg " show={show} onHide={handleClose}>
         <Modal.Header className="modal-custom ">
           <div className="modal_title">
-            <img className="title_img" src={data.urlImg} alt="" srcset="" />
+            <img className="title_img" src={data.url_img} alt="" srcset="" />
             <span className="overlay-text">{data.title}</span>
           </div>
         </Modal.Header>
@@ -44,10 +44,10 @@ const MyModal = ({ customClass, data }) => {
               </div>
               <div className="mb-3">
                 {' '}
-                <span>Año: </span> {data.yearMovie}{' '}
+                <span>Año: </span> {data.year_movie}{' '}
               </div>
               <div className="mb-3">
-                <span>Duración: </span> {data.durationMovie}{' '}
+                <span>Duración: </span> {data.duration_movie}{' '}
               </div>
               <div className="mb-3">
                 <span>Categoría: </span> {data.category}{' '}

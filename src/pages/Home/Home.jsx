@@ -32,8 +32,8 @@ const Home = () => {
       axios.post(url, myQuery).then(res => {
         const data = res.data;
         console.log(data, 'SOY DATA de post ');
-
-        setMovies(data);
+        // const movies = data.hits.hits.map(hit => hit._source);
+        setMovies(data.hits.hits.map(hit => hit._source));
       });
     } else {
       console.log('ENTRE A GET');
@@ -42,7 +42,7 @@ const Home = () => {
         const data = res.data;
         console.log(data, 'SOY DATA de get');
 
-        setMovies(data);
+        setMovies(data.hits.hits.map(hit => hit._source));
       });
     }
 
