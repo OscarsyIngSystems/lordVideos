@@ -6,6 +6,7 @@ export const ContextProviderLord = ({ children }) => {
   const [dataContext, setDataContext] = useState({
     productos: [],
     search: '' || null,
+    ishome: '',
     misPeliculas: [],
     login: {
       logged: false,

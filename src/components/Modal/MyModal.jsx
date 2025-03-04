@@ -16,6 +16,7 @@ const MyModal = ({ customClass, data, ishome }) => {
       ...prevDataContext,
 
       productos: [...dataContext.productos, data],
+      ishome: ishome,
     }));
   };
 

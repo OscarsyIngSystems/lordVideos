@@ -103,53 +103,107 @@ const CarShop = () => {
             {dataContext.productos.map(producto => {
               return (
                 <>
-                  <div
-                    key={producto.id_movie}
-                    className="row d-flex  container-principal  "
-                  >
-                    <div className="col-2 container_img">
-                      <div className="w-100 container_img">
-                        <img
-                          className="img-car"
-                          src={producto.url_img}
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="col-5 container-li">
-                      <div className="row">
-                        <div className="col-12">
-                          <label className="title" key={producto.id_movie}>
-                            {producto.title}
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="row">
-                        <div className="col-6 d-flex align-items-center">
-                          <label key={producto.id_movie}>
-                            {producto.duration_movie}
-                          </label>
-                        </div>
-                        <div className="col-6 d-flex align-items-center">
-                          <label key={producto.id_movie}>
-                            {producto.category}
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-2 d-flex justify-content-center align-items-center">
+                  {dataContext.ishome == 'true' ? (
+                    <>
                       <div
-                        onClick={() => eliminarProducto(producto.id_movie)}
-                        className="container_btn"
+                        key={producto.id_movie}
+                        className="row d-flex  container-principal  "
                       >
-                        <RiDeleteBin5Line className="delete btn  nav-item " />
+                        <div className="col-2 container_img">
+                          <div className="w-100 container_img">
+                            <img
+                              className="img-car"
+                              src={producto.url_img}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div className="col-5 container-li">
+                          <div className="row">
+                            <div className="col-12">
+                              <label className="title" key={producto.id_movie}>
+                                {producto.title}
+                              </label>
+                            </div>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-6 d-flex align-items-center">
+                              <label key={producto.id_movie}>
+                                {producto.duration_movie}
+                              </label>
+                            </div>
+                            <div className="col-6 d-flex align-items-center">
+                              <label key={producto.id_movie}>
+                                {producto.category}
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                          <div
+                            onClick={() => eliminarProducto(producto.id_movie)}
+                            className="container_btn"
+                          >
+                            <RiDeleteBin5Line className="delete btn  nav-item " />
+                          </div>
+                        </div>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                          <span className="costo">$ {producto.price}</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="col-2 d-flex justify-content-center align-items-center">
-                      <span className="costo">$ {producto.price}</span>
-                    </div>
-                  </div>
+                    </>
+                  ) : (
+                    <>
+                      <div
+                        key={producto.idMovie}
+                        className="row d-flex  container-principal  "
+                      >
+                        <div className="col-2 container_img">
+                          <div className="w-100 container_img">
+                            <img
+                              className="img-car"
+                              src={producto.urlImg}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div className="col-5 container-li">
+                          <div className="row">
+                            <div className="col-12">
+                              <label className="title" key={producto.idMovie}>
+                                {producto.title}
+                              </label>
+                            </div>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-6 d-flex align-items-center">
+                              <label key={producto.idMovie}>
+                                {producto.durationMovie}
+                              </label>
+                            </div>
+                            <div className="col-6 d-flex align-items-center">
+                              <label key={producto.idMovie}>
+                                {producto.category}
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                          <div
+                            onClick={() => eliminarProducto(producto.idMovie)}
+                            className="container_btn"
+                          >
+                            <RiDeleteBin5Line className="delete btn  nav-item " />
+                          </div>
+                        </div>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                          <span className="costo">$ {producto.price}</span>
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </>
               );
             })}
